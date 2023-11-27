@@ -1,7 +1,6 @@
-# SpaceInvader
 #############################
 
-Project title: Unity Test
+Project title: Space Invader
 Author: NGUYEN Viet Hoang
 
 #############################
@@ -37,9 +36,12 @@ LocalManager is the biggest controller, that will control every controller and V
 + The object pooling: All Bullet and Invader in the game were implemented with Object pooling design: We don't need to Instantiate the object in need or destroy it when it is outside the screen, so the Fps will be stable while running the game. 
 
 #############################
+
 SCALABILITY
+
 + Thanks to the MVC pattern, almost every component is independent, so if I need to scale the game, I just need to scale each component of this project.
 + For example: If I want to have a new bullet, I can create a new bullet script that heritage the BulletControler, then I can implement new mechanism in this new script, without worrying about the other component. What I need to care is in the new script, I must override the Initialize (for the new bullet setting), AutoMove (new way to move), TriggerDeathProcess (new way to explode), SetDeath (new way to turn back to the pool).
+
 #############################
 
 CREDIT
