@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b960bf71c8f75fd408165a944e662737, type: 3}
+  m_Name: Stage 3
+  m_EditorClassIdentifier: 
+  maxInvaderToSpawn: 30
+  invaderData: {fileID: 11400000, guid: 61df3fd9cfb34604d82d8f0cb16d98eb, type: 2}
+  spawnDelay: 2
+  path: 1
